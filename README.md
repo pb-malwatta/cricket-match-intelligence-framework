@@ -106,3 +106,208 @@ predictive-cricket-kinematics/
 ├── requirements.txt        # Modular package dependencies
 ├── LICENSE                 # Open source MIT license
 └── README.md               # Analytical research portfolio document
+
+
+
+# 🏏 Cricket Match Intelligence Framework
+
+AI-driven cricket match intelligence framework using probabilistic modeling, temporal analytics, machine learning, calibration systems, and dynamic game-state intelligence.
+
+---
+
+# 📌 Project Vision
+
+This project explores advanced AI-driven cricket analytics through:
+
+- Real-time win probability estimation
+- Temporal match trajectory modeling
+- Dynamic game-state intelligence
+- Ensemble machine learning systems
+- Match momentum analysis
+- Probabilistic cricket forecasting
+- Calibration-aware prediction systems
+- Intelligent score pressure estimation
+
+The long-term vision is to build a research-oriented cricket intelligence ecosystem capable of supporting:
+
+- Tactical decision-making
+- Match strategy optimization
+- Real-time broadcast analytics
+- Sports AI research
+- Advanced cricket forecasting systems
+
+---
+
+# ⚙️ Core Components
+
+## 🔹 Match-State Modeling
+
+Engineered cricket state representations including:
+
+- Runs remaining
+- Balls remaining
+- Wickets in hand
+- Current run rate (CRR)
+- Required run rate (RRR)
+- Rolling momentum features
+- Venue encoding
+- Dynamic innings states
+- Over-phase contextual modeling
+- Pressure-state transitions
+
+---
+
+## 🔹 Machine Learning Models
+
+### XGBoost Probabilistic Modeling
+
+- Real-time win probability estimation
+- Out-of-fold prediction pipelines
+- GroupKFold validation
+- Match-level generalization
+- Nonlinear state interaction learning
+
+### LSTM Temporal Modeling
+
+- Sequential match trajectory learning
+- Temporal innings evolution
+- Dynamic sequence intelligence
+- Ball-by-ball contextual forecasting
+
+### Meta-Ensemble Architecture
+
+- Multi-model probability fusion
+- Stability-aware probability refinement
+- Ensemble calibration optimization
+- Variance reduction pipelines
+
+---
+
+# 📊 Empirical Performance & Calibration Metrics
+
+Rigorous validation experiments were conducted to evaluate probabilistic consistency, predictive calibration, and temporal forecasting performance.
+
+| Model Architecture | Validation Log Loss | Brier Score | Classification Accuracy |
+|-------------------|-------------------|-------------|--------------------------|
+| XGBoost Baseline | 0.5053 | 0.1653 | 75.49% |
+| LSTM Temporal Sequence Model | 0.4394 | 0.1458 | 78.05% |
+| Stacked Meta-Ensemble Framework | 0.4291 | 0.1433 | 78.35% |
+
+---
+
+## 🔹 Calibration Analysis
+
+The framework incorporates probability calibration mechanisms to ensure predictive probabilities align closely with empirical match outcomes.
+
+Example:
+
+- Predicted 70% win probability ≈ observed 70% historical win frequency
+- Reduction of artificial probability volatility
+- Improved decision reliability under dynamic match states
+
+Calibration techniques explored include:
+
+- Isotonic Regression
+- Reliability Curve Analysis
+- Brier Optimization
+- Probability Smoothing Pipelines
+
+---
+
+# 📈 Current Research Directions
+
+- Win Probability Modeling
+- Match Dynamics Intelligence
+- Trajectory-Based Cricket Analytics
+- Momentum Evolution Analysis
+- Probability Calibration
+- Intelligent Par Score Estimation
+- Temporal Sequence Learning
+- Match Pressure Modeling
+- Dynamic Tactical Forecasting
+
+---
+
+# 📉 Example Analytical Outputs
+
+The framework currently generates:
+
+- Win probability trajectories
+- Match evolution curves
+- Calibration plots
+- Reliability diagrams
+- Probability distributions
+- Temporal sequence predictions
+- Dynamic match-state analytics
+- Pressure transition visualizations
+- Ensemble comparison metrics
+
+---
+
+# 🧠 Future Research Goals
+
+Planned future developments include:
+
+- Reinforcement learning strategies
+- Player embedding architectures
+- Graph neural networks
+- Tactical AI systems
+- Latent game-state modeling
+- Uncertainty-aware forecasting
+- Multi-agent cricket intelligence
+- Real-time streaming inference systems
+- Tactical recommendation engines
+- Explainable sports AI systems
+
+---
+
+# 🏗️ Project Structure
+
+```text
+data/
+notebooks/
+models/
+visualizations/
+results/
+reports/
+docs/
+src/
+```
+
+---
+
+# 🔬 Research Motivation
+
+Cricket is a highly dynamic and probabilistic sport involving:
+
+- Momentum shifts
+- Tactical adaptation
+- Temporal dependencies
+- Context-sensitive decision making
+- Evolving pressure environments
+
+This project investigates how machine learning and AI can model these complex structures through probabilistic forecasting, temporal intelligence systems, and calibration-aware analytics.
+
+The broader research objective is to bridge sports analytics, machine learning, probabilistic systems, and dynamic decision intelligence into a unified cricket AI research framework.
+
+---
+
+# 👨‍💻 Author
+
+**Pubudu Buddhi Malwatta**  
+Independent Researcher  
+Sri Lanka
+
+### Research Interests
+
+- AI Research
+- Cricket Analytics
+- Probabilistic Modeling
+- Machine Learning
+- Temporal Systems
+- Sports Intelligence
+- Calibration Theory
+- Sequential Decision Systems
+
+---
+
